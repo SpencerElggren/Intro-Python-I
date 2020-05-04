@@ -7,11 +7,11 @@ y = [8, 9, 10]
 # For the following, DO NOT USE AN ASSIGNMENT (=).
 
 # Change x so that it is [1, 2, 3, 4]
-x = [1, 2, 3, 4]
-print(x)
+
+print(x.append(4))
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
-y = [8, 9, 10]
+
 x.extend(y)
 print(x)
 
@@ -27,7 +27,6 @@ print(x)
 print(len(x))
 
 # Print all the values in x multiplied by 1000
-z = []
 
 for i in range(len(x)):
     print(x[i] * 1000)
